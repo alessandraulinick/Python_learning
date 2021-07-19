@@ -16,7 +16,7 @@ num5 = 5
 numeros = [num1, num2, num3, num4, num5]
 print(numeros)
 
-#Podemos facilmente chegar se determinado valor está contido na lista
+#checar se determinado valor está contido na lista
 num = 7
 if num in lista4:
     print(f'Encontrei o numero {num} da lista 4\n')
@@ -29,7 +29,7 @@ if letra in lista5:
 else:
     print(f'Não encontrei a letra {letra} da lista 5\n')
 
-#Podemos facilmente ordenar uma lista
+#ordenar uma lista
 lista1.sort()
 print(f'Lista 1 ordenada: {lista1}\n')
 
